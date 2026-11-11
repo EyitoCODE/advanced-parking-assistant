@@ -1,5 +1,7 @@
 # Advanced Parking Assistant System
 
+**Project dates:** March–April 2026
+
 A two-person Real-Time Systems course project that uses an Arduino Uno to measure obstacle distance and indicate proximity with LEDs, a seven-segment display, and a piezo buzzer. A 16×2 LCD displays the current distance and the 30 cm limit. A push button toggles the audio while the visual indicators continue to update.
 
 ![Tinkercad wiring layout showing the Arduino Uno, ultrasonic sensor, buzzer, seven-segment display, shift register, LEDs, and LCD across two breadboards](docs/tinkercad-circuit.png)
@@ -41,4 +43,4 @@ The team tested the circuit integration in Tinkercad. The PlatformIO build check
 
 **Oritse-Tsegbemi Eyito** led hardware architecture and integration testing, co-designed the two-breadboard layout, resolved the ICP1 and INT0 pin conflicts, and debugged the LCD and shift-register bit handling.
 
-**Nifemi Ogunmeru** co-designed and assembled the Tinkercad layout, tested and debugged the circuit, and prepared the report and demonstration recording. The ultrasonic module builds on timer code and calculations from the course.
+**[Nifemi Ogunmeru](https://github.com/Nifemi-Codes)** co-designed and assembled the Tinkercad layout, tested and debugged the circuit, and prepared the report and demonstration recording. The ultrasonic module builds on timer code and calculations from the course.
